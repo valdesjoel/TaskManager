@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Header de Web</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-transparent.png" alt="TaskManager-logo" width="250">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Fonctionnalité</a>
+                            </li>
+                            <li class="nav-item mx-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos Équipes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Développeurs Front-End</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Développeurs Back-End</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Base de donnée</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Gestion des utilisateurs</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <a class="btn btn-link text-decoration-none" role="button" href="#">Se connecter</a>
+                        <a class="btn btn-outline-danger" role="button" href="#">S'inscrire</a>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!-- Premier section contenu principal -->
+
+    <section class=" bg-body-secondary">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/interface-large.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Reprenez le contrôle sur votre travail</h1>
+                <p class="lead">Des petites tâches aux grands objectifs, Asana organise toutes les activités de vos équipes 
+                    pour leur permettre d’identifier le travail à accomplir, sa priorité et la marche à suivre pour le mener à bien.
+
+                </p>
+                <form action="">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <label type="submit" class="btn btn-primary btn-md px-4 me-md-2" for="mail">Inscrivez-vous c'est gratuit</label>
+                        <input type="email" class="btn btn-light btn-md px-4" id="mail" placeholder="Adresse mail">
+                      </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seconde section contenu secondaire -->
+
+    <section>
+        <div class="container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+              <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Où que vous soyez</h1>
+                <p class="lead">
+                    Gagnez du temps grâce à un hub bien conçu qui aide les équipes à trouver des informations facilement et
+                    rapidement. Libérez la créativité de votre équipe et gardez les idées visibles, collaboratives
+                    et exploitables.
+                </p>
+              </div>
+              <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class="rounded-lg-3" src="images/interface.png" alt="image interface utilisateur" width="800">
+              </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- pied de page -->
+
+    <footer class="footer mt-auto pt-3 bg-body-tertiary ">
+        <div class="container d-flex">
+            <!-- Partie concernant le Copyrith -->
+            <div class="mx-auto">
+                <span>Copyrigth &copy; <span class="h5">TaskManager</span> &bull; Tous les droits reservés </span>
+                
+            </div>
+            <!-- Partie concernant les réseaux sociaux -->
+            <div class="d-inline">
+                <p class="d-inline-block mx-3">
+                    <a href="https://facebook.com">
+                        <img src="bootstrap-icons-1.11.1/facebook.svg" alt="Facebook" width="30">
+                    </a>
+                </p>
+                <p class="d-inline-block mx-3">
+                    <a href="https://youtube.com">
+                        <img src="bootstrap-icons-1.11.1/youtube.svg" alt="Youtube" width="30">
+                    </a>
+                </p>
+                <p class="d-inline-block mx-3">
+                    <a href="https://twitter.com">
+                        <img src="bootstrap-icons-1.11.1/twitter-x.svg" alt="Twitter" width="30">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js">
+
+    </script>
+
+</body>  
+</html>
