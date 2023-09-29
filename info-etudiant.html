@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informations-utilisateur</title>
+    <!-- Inclusion de la feuille de style Bootstrap 5 (le cas échéant) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <!-- Lien vers l'adresse de l'image d'icône -->
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/a/ACg8ocIKZ7TTxLNam1zmGkSYB0SGmjsJ8h3n2u2VN3F9Q4TcG9airaJyCQv3o0AoG8SEV0SCOG57UKm7BzgEDhDlp_gjAyU=s32" type="image/x-icon">
+    <style>
+        /* Styles CSS personnalisés */
+
+        /* Réinitialisation de certaines valeurs par défaut du navigateur */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; /* Police de caractères par défaut */
+            background-color: #F2F2F2; /* Couleur de fond */
+            margin: 0; /* Suppression des marges extérieures par défaut */
+            padding: 0; /* Suppression des marges intérieures par défaut */
+        }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 100%; /* Le conteneur ne dépasse pas la largeur de la fenêtre */
+            padding: 20px; /* Espacement autour du contenu */
+        }
+
+        /* Style du tableau */
+        table {
+            width: 100%; /* Tableau occupe toute la largeur du conteneur parent */
+            border-collapse: collapse; /* Fusion des bordures des cellules */
+            margin-bottom: 20px; /* Espacement sous le tableau */
+        }
+
+        /* Style des cellules du tableau */
+        th, td {
+            border: 1px solid #2C3338; /* Bordures grises */
+            padding: 10px; /* Espacement intérieur des cellules */
+            text-align: center; /* Alignement du texte au centre */
+        }
+
+        /* Style des en-têtes de colonnes */
+        th {
+            background-color: #2271B1; /* Fond noir pour les en-têtes */
+            color: #FFF; /* Texte blanc pour les en-têtes */
+            font-weight: normal;
+        }
+
+        /* Styles pour les écrans plus petits (responsive) */
+        @media (max-width: 768px) {
+            table {
+                font-size: 12px; /* Réduction de la taille de police pour les petits écrans */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>INFORMATIONS UTILISATEURS</h1>
+        <!-- Tableau pour afficher les informations -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Login</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Téléphone</th>
+                    <th>Photo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>KIBITI</td>
+                    <td>2023</td>
+                    <td>baillonnekbt@gmail.com</td>
+                    <td>+241 62 96 53 81</td>
+                    <td><img src="https://lh3.googleusercontent.com/a/ACg8ocIKZ7TTxLNam1zmGkSYB0SGmjsJ8h3n2u2VN3F9Q4TcG9airaJyCQv3o0AoG8SEV0SCOG57UKm7BzgEDhDlp_gjAyU=s32" alt="Photo de profil"></td>
+                </tr>
+                <!-- Ajoutez d'autres lignes de données ici -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
